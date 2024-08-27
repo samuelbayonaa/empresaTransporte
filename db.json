@@ -1,0 +1,54 @@
+{
+  "usuarios": [
+    {
+      "id": "fd91",
+      "nombres": "samuel",
+      "email": "samuel_bayona@soy.sena.edu.co",
+      "numero": "3213802314",
+      "password": "12345678910",
+      "rol": "cliente"
+    },
+    {
+      "id": "dbe8",
+      "nombres": "juan",
+      "email": "juan@gmail.com",
+      "numero": "3213802314",
+      "password": "12345",
+      "rol": "administrador"
+    },
+    {
+      "id": "80fc",
+      "nombres": "gabriela",
+      "email": "gabriela@gmail.com",
+      "numero": "3213802314",
+      "password": "12345",
+      "rol": "cliente"
+    }
+  ],
+  "camiones": [
+    {
+      "id": "1",
+      "matricula": "ABC-1234",
+      "marca": "Ford",
+      "capacidad": 1500,
+      "consumo": 12.5,
+      "carga_actual": 750
+    },
+    {
+      "id": "2",
+      "matricula": "XYZ-5678",
+      "marca": "Chevrolet",
+      "capacidad": 2000,
+      "consumo": 14,
+      "carga_actual": 1200
+    },
+    {
+      "id": "3",
+      "matricula": "XYZ-123",
+      "marca": "Ford",
+      "capacidad": 1000,
+      "consumo": "20",
+      "carga_actual": 500
+    }
+  ]
+}
