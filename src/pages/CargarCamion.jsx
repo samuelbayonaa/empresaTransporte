@@ -45,7 +45,7 @@ class CargarCamion extends Component {
         carga_actual
       });
       alert("Camión registrado con éxito");
-      window.location.href = "/detallescamion";
+      window.location.href = "/dashboar-admin";
     } catch (error) {
       this.setState({ error: "Hubo un problema al registrar el camión. Inténtalo nuevamente." });
     }
@@ -121,7 +121,7 @@ class CargarCamion extends Component {
             </div>
             <div className="flex mt-6 space-x-4">  
             <button type="submit" className="px-4 py-2 text-white transition duration-300 bg-blue-600 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">Cargar camión</button> 
-            <Link to ="/detallescamion">
+            <Link to ="/dashboard-admin">
             <button type=" " className="px-4 py-2 text-white transition duration-300 bg-black rounded-lg hover:bg-white-700 focus:outline-none focus:ring-2 focus:ring-black-500">volver</button>
             </Link>
             </div>

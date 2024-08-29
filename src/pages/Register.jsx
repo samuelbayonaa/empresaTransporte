@@ -1,6 +1,8 @@
 import  { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import { Truck } from 'lucide-react';
+
 
 const baseUrl = "http://localhost:3100/usuarios";
 
@@ -52,6 +54,19 @@ const Register = () => {
   };
 
   return (
+    <div>
+      <nav className="bg-blue-600 shadow-lg">
+            <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div className="flex items-center justify-between h-16">
+              <div className="flex items-center">
+                <Truck className="w-12 h-12 text-white" />
+                <span className="ml-3 text-2xl font-bold text-white">EmpresaTransporte</span>
+              </div>
+              <div className="hidden md:block">
+              </div>
+            </div>
+          </div>
+        </nav>
     <div className="flex flex-col justify-center min-h-screen py-12 bg-gray-100 sm:px-6 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <h2 className="mt-6 text-3xl font-extrabold text-center text-gray-900">
@@ -139,7 +154,7 @@ const Register = () => {
             <div className="mt-6">
               <Link
                 to="/login"
-                className="flex justify-center w-full px-4 py-2 text-sm font-medium text-blue-600 bg-white border border-transparent rounded-md shadow-sm hover:bg-gray-50"
+                className="flex justify-center w-full px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-transparent rounded-md shadow-sm hover:bg-gray-50"
               >
                 Iniciar sesión
               </Link>
@@ -148,6 +163,8 @@ const Register = () => {
         </div>
       </div>
     </div>
+    </div>
+
   );
 };
 
